@@ -31,5 +31,5 @@ A beginner-friendly REST API project built using **Django** and **Django REST Fr
 | PATCH | `/blogpost/<id>/` | Partially update a post |
 | DELETE | `/blogpost/<id>/` | Delete a post |
 
-## Installation and Setup
+
 
