@@ -1,75 +1,35 @@
-Django REST API CRUD Demo
+# Django REST API CRUD Demo
 
-A beginner-friendly REST API project built using Django and Django REST Framework (DRF). This project demonstrates fundamental REST API concepts through a simple blog post CRUD application.
+A beginner-friendly REST API project built using **Django** and **Django REST Framework (DRF)**. This project demonstrates fundamental REST API concepts through a simple blog post CRUD application.
 
-Features
+## Features
 
-Create blog posts.
+- Create blog posts.
+- Retrieve a list of posts.
+- Retrieve individual posts.
+- Update existing posts using PUT.
+- Partially update posts using PATCH.
+- Delete existing posts.
+- Serializer-based data validation.
 
-Retrieve a list of posts.
+## Technologies Used
 
-Retrieve individual posts.
+- Python
+- Django
+- Django REST Framework
+- HTTPie (API testing)
+- SQLite
 
-Update existing posts using PUT.
+## API Endpoints
 
-Partially update posts using PATCH.
+| HTTP Method | Endpoint | Description |
+|---|---|---|
+| GET | `/blogpost/` | Retrieve all posts |
+| POST | `/blogpost/` | Create a new post |
+| GET | `/blogpost/<id>/` | Retrieve a specific post |
+| PUT | `/blogpost/<id>/` | Fully update a post |
+| PATCH | `/blogpost/<id>/` | Partially update a post |
+| DELETE | `/blogpost/<id>/` | Delete a post |
 
-Delete existing posts.
+## Installation and Setup
 
-Serializer-based data validation.
-
-Technologies Used
-
-Python
-
-Django
-
-Django REST Framework
-
-HTTPie (API testing)
-
-SQLite
-
-API Endpoints
-
-HTTP Method
-
-Endpoint
-
-Description
-
-GET
-
-/blogpost/
-
-Retrieve all posts
-
-POST
-
-/blogpost/
-
-Create a new post
-
-GET
-
-/blogpost/<id>/
-
-Retrieve a specific post
-
-PUT
-
-/blogpost/<id>/
-
-Fully update a post
-
-PATCH
-
-/blogpost/<id>/
-
-Partially update a post
-
-DELETE
-
-/blogpost/<id>/
-
-Delete a post
